@@ -3,7 +3,7 @@ package com.knoldus
 
 import java.io.File
 import akka.actor.{OneForOneStrategy, SupervisorStrategy}
-import akka.actor.SupervisorStrategy.{Escalate, Resume, Stop}
+import akka.actor.SupervisorStrategy.{Escalate, Resume}
 import akka.pattern.AskTimeoutException
 import scala.concurrent.duration._
 
